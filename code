@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+class Cards
+{
+    public:
+        integer suit;
+        integer value;
+    private:
+        void convertValue;
+        void convertSuit;
+    
+};
+
+void Cards::convertValue()
+{
+    if()
+}
+
+void Cards::convertSuit()
+{
+    
+}
+
+int main()
+{
+    vector <Cards> cards;
+    for (int i = 1; i < 14; i++)
+    {
+        cards[i].value = i;
+        cards[i].suit = 0;
+    }
+    for (int j = 14; j < 27; j++)
+    {
+        cards[j].value = j;
+        cards[j].suit = 1;
+    }
+    for (int x = 27; x < 40; x++)
+    {
+        cards[x].value = x;
+        cards[x].suit = 2;
+    }
+    for (int y = 40; y < 53; y++)
+    {
+        cards[y].value = y;
+        cards[y].suit = 3;
+    }
+}
